@@ -16,12 +16,16 @@ h2 {
 .project-description {
   padding: 120px 60px;
 }
+.project-img {
+  margin: 0 auto;
+  display: block;
+}
 @media (max-width: 960px) {
   h1 {
-    font-size: 32px;
+    font-size: 44px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 32px;
   }
   .project-description {
     padding: 0;

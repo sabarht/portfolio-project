@@ -9,9 +9,12 @@ h2 {
 .hero {
   width: 100%;
   margin: 0;
-  padding: 50px 0;
+  padding: 64px 0;
   text-align: center;
   background-color: #e4d7fa;
+}
+.content-container {
+  padding: 60px 120px;
 }
 .project-description {
   padding: 120px 60px;
@@ -29,6 +32,9 @@ h2 {
   border-radius: 12px;
 }
 @media (max-width: 960px) {
+  .content-container {
+    padding: 12px 36px;
+  }
   h1 {
     font-size: 44px;
   }

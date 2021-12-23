@@ -6,6 +6,13 @@ h2 {
   font-size: 42px;
   font-weight: bolder;
 }
+.navbar-nav,
+.mr-auto {
+  flex-grow: inherit;
+  margin: auto !important;
+  display: flex;
+  justify-content: right !important;
+}
 .hero {
   width: 100%;
   margin: 0;
